@@ -1,0 +1,16 @@
+bitbucket 1qazxsw2 Lit_Roni
+
+git commit
+git commit -am'which massage you want to give there'
+
+push on githab/bitbucet from master
+git push origin "branch name"
+
+creat new branch
+git branch "branch name"
+
+git change branch
+git checkout "name of the branch where you want to go"
+
+
+
