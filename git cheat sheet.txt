@@ -16,7 +16,13 @@ git remote add origin "repository link will be here"
 + git remote -v
 + git push origin master (git bash will take your user name and password)
 
-
+when you see this types of massage "Please enter the commit massage for your change. lines starting with '#' will be ignored. and an empty masage aborts the commit.On branch master ........" 
+then first press "I" and 
++ write "Initial commit" and
++ now press "esc" button from your keybord and 
++ press and type ":wq" and 
+lastly press enter. 
+SOLVED
 
 
 
