@@ -1,0 +1,2 @@
+to make dynamic the language tag in wordpress (it will selecet 		automaticlly your wordpress default language, which you seleceted when you installed wordpress )
+<?php language_attributes(); ?>
