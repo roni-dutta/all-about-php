@@ -6,3 +6,23 @@
 	
 <link rel="stylesheet" type="text/css" href="link of.css">
 	- this is the code of extranal css. its should be post under the meta name viewport or under the carset
+
+function.php   now-a-days functions.php are using for add css and javascript file like the under documention
+
+	<?php
+	// Including shuffle theme all css & js files
+	function shuffle_themes_files(){
+		wp_register_style('bootstrap', get_template_directory_uri() .'/css/bootstrap.min.css', array(), '3.1.1', 'all');
+		
+		wp_enqueue_style('bootstrap');
+	}
+	add_action('wp_enqueue_scripts','shuffle_themes_files');
+	?>
+
+	start with "<?php" 
+	2nd line you can add some text to developer friendly
+	3rd line function "function name" 
+	4th line "wp_register_style( $handle, $src, $deps, $ver, $media );"
+	5th line wp_enqueue_style('bootstrap');
+	6th add_action('wp_enqueue_scripts','function name should be here');
+	end with "?>"
