@@ -3,3 +3,6 @@
 	
 <?php bloginfo( 'charset' ); ?>
 	- Generate charset in metatag.
+	
+<link rel="stylesheet" type="text/css" href="link of.css">
+	- this is the code of extranal css. its should be post under the meta name viewport or under the carset
